@@ -13,9 +13,17 @@
 }
 
 #Destaques {
-	margin-top: 5%;
 	margin-left: 5%;
 	height: 550px;
+}
+
+div div img {
+	width: 250px;
+	height: 400px;
+	float: left;
+	margin-left: 5%;
+	margin-top: 5%;
+	border-radius: 15px;
 }
 
 ul ul{
@@ -72,14 +80,4 @@ ul ul li a {
 }
 ul ul li a:hover {
 	background: #2d2d2d;
-}
-
-div div img {
-	width: 250px;
-	height: 400px;
-	float: left;
-	margin-left: 25%;
-	margin-right: -16%;
-	margin-top: 5%;
-	border-radius: 15px;
 }

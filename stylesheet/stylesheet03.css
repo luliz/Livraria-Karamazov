@@ -1,3 +1,21 @@
+
+
+.Texto a {
+	font-family: "Liberation Sans";
+	font-size: 18px;
+	color: white;
+  text-decoration: none;
+	font-style: bold;
+}
+h5 {
+	font-family: "Liberation Serif";
+	color: white;
+}
+img {
+	height: 360px;
+	width: 460px;
+	border-radius: 10px;
+}
 #Logo {
 	margin-left: 35%;
 	height: 200px;
@@ -9,13 +27,34 @@
 }
 
 #Menu {
-	margin-left: 18%;
+	margin-left: 15%;
 }
 
-#Destaques {
+#Livraria {
 	margin-top: 5%;
-	margin-left: 5%;
-	height: 550px;
+	width: 100%;
+	height: 100px;
+	background-color: #2d2d2d;
+}
+
+.Noticias {
+	margin-top: 5%;
+	width: 100%;
+	height: 650px;
+	border-top-color: #2d2d2d;
+	border-bottom-color: #2d2d2d;
+	border-right-color: white;
+	border-left-color: white;
+	border-style: solid;
+	background-color: #2d2d2d;
+}
+
+.Texto {
+	width: 90%;
+	height: 100%;
+	border-radius: 15px;
+	background: none;
+	margin-left: 1%;
 }
 
 ul ul{
@@ -72,14 +111,4 @@ ul ul li a {
 }
 ul ul li a:hover {
 	background: #2d2d2d;
-}
-
-div div img {
-	width: 250px;
-	height: 400px;
-	float: left;
-	margin-left: 25%;
-	margin-right: -16%;
-	margin-top: 5%;
-	border-radius: 15px;
 }
